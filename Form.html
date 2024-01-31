@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Student Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+
+<form action="">
+    <legend>STUDENT INFORMATION</legend>
+    <br>
+
+    <label for="fname">Firstname ;</label>
+    <input type="text" id="fname" placeholder="firstname" required="required">
+    <br><br>
+
+    <label for="sname">Surname ;</label>
+    <input type="text" id="sname" placeholder="surname" required="required">
+    <br><br>
+
+    <label for="email">Email Address ;</label>
+    <input type="email" id="email" placeholder="abc@gmail.com" required="required">
+    <br><br>
+
+    <label for="pwd">Password ;</label>
+    <input type="password" id="pwd" placeholder="enter password" required="required">
+    <br><br>
+
+    <p>Choose programming language ;</p>
+    <input type="checkbox" id="Python">
+    <label for="Python">Python</label><br>
+    <input type="checkbox" id="Java">
+    <label for="Java">Java</label>
+
+    <P>Choose your favourite game ;</P>
+    <input type="checkbox" id="football">
+    <label for="football">Football</label><br>
+    <input type="checkbox" id="hockey">
+    <label for="hockey">hockey</label><br><br>
+
+    <label for="nationality">nationality ;</label>
+    <select name="" id="nationality">
+        <option value="choose" disabled="disabled">--Choose nationality</option>
+        <option value="Kenyan"></option>
+        <option value="American"></option>
+    </select>
+
+    <br><br>
+
+    <label for="file">Choose file</label>
+    <input type="file" id="file"><br><br>
+
+    <label for="yob">Year of birth</label>
+    <input type="date" id="yob"><br><br>
+
+    <label for="person">Describe yourself ;</label><br>
+    <textarea name="" id="person" cols="40" rows="5" placeholder="type here..." required="required"></textarea>
+    <br><br>
+    <button type="Submit">Submit</button>
+
+
+</form>
+
+</body>
+</html>

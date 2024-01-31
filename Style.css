@@ -1,0 +1,41 @@
+.heading1{
+    color: red;
+    .heading1{
+        font-style: italic;
+
+    }
+    .eMobilis{
+        background-color: olivedrab;
+        padding-top: 30px;
+        padding-left: 50px;
+        padding-bottom: 30px;
+        margin-left: 50px;
+        margin-right: 50px;
+        color: deepskyblue;
+    }
+.mytest{
+display: flex;
+    background-color: lightgray;
+    padding: 20px;
+}
+    .paragraph1{
+        margin-left: 30px;
+    }
+    .main{
+        display: flex;
+    }
+.paragraph2{
+    margin-left: 30px;
+}
+    .main{
+        display: flex;
+    }
+    .paragrap3{
+        margin-left: 30px;
+    }
+    .main{
+        display: flex;
+    }
+}
+
+
